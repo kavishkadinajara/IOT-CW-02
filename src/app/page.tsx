@@ -61,7 +61,7 @@ export default function Home() {
           {/* led 01 */}
           <div className="mt-20" key={'bulb1'}>
             <h2 className="flex justify-center text-green-500 text-2xl">LED 01</h2>
-            <div className="flex justify-center mt-10">
+            <div className="flex justify-center mt-10 mx-1">
               <button className={`px-10 py-4 border-2 border-double rounded-full font-semibold ${bulbOn1 ? 'bg-gradient-to-br from-green-700 to-green-900 text-yellow-600' : 'bg-gradient-to-br from-red-700 to-pink-900 text-yellow-600'}`} onClick={() => toggleBulb(1, bulbOn1, setBulbOn1)}>
                 {bulbOn1 ? 'ON' : 'OFF'}
               </button>
