@@ -53,7 +53,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen container">
       <main className="relative">
         <div className='absolute top-0 w-64 h-full rotate-45 lg:rotate-45 opacity-65 lg:opacity-45 blur-3xl rounded-full left-0 -translate-x-1/2  lg:left-auto lg:right-0 lg:transform-none bg-gradient-to-br from-purple-950 to-pink-800 z-0'></div>
         <NavBar/>
